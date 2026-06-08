@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineVerse | Movie Discovery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-wrapper">
+        <i class="fas fa-film"></i>
+        <h2 class="header-title">CineVerse</h2>
+      </div>
+      <form action="#" class="search-form">
+        <input
+          type="text"
+          placeholder="Search for movies..."
+          class="search-input"
+        />
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <div class="movies-list-container">
+        <div class="condition-box">
+          <div class="loading-box">
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+            <div class="card">
+              <div class="card__image"></div>
+              <div class="card__content"><h2 class="card__title"></h2></div>
+            </div>
+          </div>
+          <h2 class="error-text"></h2>
+          <h2 class="warning-text"></h2>
+        </div>
+        <div class="movies-list"></div>
+      </div>
+    </main>
+
+    <div class="pagination-box">
+      <button class="pagination-btn" id="prev-page-btn">
+        <i class="fas fa-chevron-left"></i> Prev
+      </button>
+      <div class="current-page">1</div>
+      <button class="pagination-btn" id="next-page-btn">
+        Next <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
